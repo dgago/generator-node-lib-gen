@@ -27,6 +27,12 @@ module.exports = class extends Generator {
         require: true,
         name: 'email',
         message: 'Cuál es tu email?'
+      },
+      {
+        type: 'input',
+        require: false,
+        name: 'website',
+        message: 'Cuál es tu website? (Dejar vacío si no tienes)'
       }
     ];
 

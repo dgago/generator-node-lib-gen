@@ -2,11 +2,10 @@
   "name": "<%= appname %>",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/tu-usuario-github/<%= appname %>",
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>",
-    "url": "https://tu-website.com"
+    "url": "<%= website %>"
   },
   "main": "dist/index.js",
   "keywords": [],
@@ -17,14 +16,14 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/jest": "*",
-    "@types/node": "*",
-    "jest": "*",
-    "prettier": "*",
-    "ts-jest": "*",
-    "tsc-watch": "*",
-    "tslint-config-prettier": "*",
-    "typescript": "*"
+    "@types/jest": "",
+    "@types/node": "",
+    "jest": "",
+    "prettier": "",
+    "ts-jest": "",
+    "tsc-watch": "",
+    "tslint-config-prettier": "",
+    "typescript": ""
   },
   "license": "MIT"
 }
