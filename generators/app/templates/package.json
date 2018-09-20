@@ -1,0 +1,30 @@
+{
+  "name": "<%= appname %>",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tu-usuario-github/<%= appname %>",
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "https://tu-website.com"
+  },
+  "main": "dist/index.js",
+  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc-watch --onSuccess \"npm t\"",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/node": "*",
+    "jest": "*",
+    "prettier": "*",
+    "ts-jest": "*",
+    "tsc-watch": "*",
+    "tslint-config-prettier": "*",
+    "typescript": "*"
+  },
+  "license": "MIT"
+}

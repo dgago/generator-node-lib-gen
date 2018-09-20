@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Diego Gago",
+      "authorEmail": "diego.gago@gmail.com",
+      "authorUrl": "https://dgago.com"
+    }
+  }
+}
