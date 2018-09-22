@@ -10,7 +10,7 @@
   "main": "dist/index.js",
   "keywords": [],
   "scripts": {
-    "build": "tsc",
+    "build": "build.bat",
     "start": "tsc-watch --onSuccess \"npm t\"",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "test": "jest"
