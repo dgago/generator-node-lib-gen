@@ -48,6 +48,8 @@ module.exports = class extends Generator {
       'jest.config.js',
       'LICENSE',
       'package.json',
+      'build.bat',
+      'dts-bundle.json',
       'README.md',
       'tsconfig.json',
       'tslint.json',
